@@ -14,6 +14,8 @@ The **CryptUIDlgSelectCertificate** function displays a dialog box that allows a
 
 
 ```C++
+PCCERT_CONTEXT WINAPI CryptUIDlgSelectCertificate(
+  _In_  PCCRYPTUI_SELECTCERTIFICATE_STRUCT pcsc
 );
 ```
 
